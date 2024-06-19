@@ -34,12 +34,12 @@ pip install -r requirements.txt
 ### 4. Run the Script
   Execute the script from the command line, providing the input file, output file, and YAML configuration file paths as arguments. Optionally, you can specify a log file path to save log messages.
    ```bash 
-          python preprocess.py input_file.txt output_file.txt config.yaml --log log_file.txt 
+        python Text_preprocess.py congif.yaml input_file.txt output_file.txt lang
   ```
     input_file.txt: Path to the input text file.
     output_file.txt: Path to the output file where preprocessed text will be saved.
     config.yaml: Path to the YAML configuration file.
-    --log log_file.txt (optional): Path to the log file.
+    lang: Language code of the text
    
 ## Configuration
   The YAML configuration file (config.yaml) contains Unicode ranges and punctuation rules for each supported language. You can customize these ranges and rules according to your requirements.
