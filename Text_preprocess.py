@@ -1,3 +1,8 @@
+# Copyright 2024 
+    Name : A V N S Bhavana (PhD Scholar)
+    Email Id : bhavana.akkiraju@research.iiit.ac.in
+# 
+# All rights reserved.
 import sys
 import yaml
 import re
